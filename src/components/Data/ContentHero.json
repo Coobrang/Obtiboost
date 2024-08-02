@@ -1,0 +1,29 @@
+{
+    "sections":
+    [
+        {
+          "type": "title",
+          "lines":
+          [
+            "All in one",
+            "SEO software",
+            "made simple."
+          ]  
+        },
+        {
+            "type": "description",
+            "lines":
+            [
+                "We are a UK based SEO agency and the creators of the famous",
+                "website crawler and log file analyser tools."
+            ]
+        }
+    ],
+
+    "buttons":
+    {
+        "StartTrial": "Start Free Trial",
+        "signInText": "Already using vault?",
+        "signInLink": "Sign in"
+    }
+}

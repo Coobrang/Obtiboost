@@ -1,0 +1,133 @@
+.team
+{
+    padding: 4rem 0%;
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team .title
+{
+    margin-bottom: 3rem;
+}
+
+.team .title h2
+{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.team .title p
+{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5f5f5f;
+}
+
+.team .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 3rem;
+    padding: 0rem 4%;
+}
+
+.team .box-container .box .image
+{
+    position: relative;
+    border-radius: 200px 4px 200px 200px;
+    padding-top: 20px;
+    overflow: hidden;
+    height: 300px;
+    width: 275px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.team .box-container .box:hover .image
+{
+    transform: translateY(-5px);
+}
+
+.team .box-container .box:nth-child(1) .image
+{
+    background-color: #f5bce3;
+}
+
+.team .box-container .box:nth-child(2) .image
+{
+    background-color: #f1e1a8;
+}
+
+.team .box-container .box:nth-child(3) .image
+{
+    background-color: #b7f8c5;
+}
+
+.team .box-container .box:nth-child(4) .image
+{
+    background-color: #fbc7b7;
+}
+
+.team .box-container .box .image img
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.team .box-container .box .name h4
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.team .box-container .box .name span
+{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #5f5f5f;
+}
+
+.team .button a
+{
+    padding: 15px 25px;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.team .button a:hover
+{
+    background-color: var(--color-black);
+}
+
+/* Responsive */
+@media screen and (max-width: 1440px)
+{
+    .team
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .team .title h2
+    {
+        font-size: 2rem;
+    }
+    .team .box-container .box .image
+    {
+        width: 100%;
+        height: 400px;
+    }
+    .team .box-container .box .image img
+    {
+        width: auto;
+    }
+}

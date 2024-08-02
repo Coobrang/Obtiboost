@@ -1,0 +1,33 @@
+[
+    {
+        "icon": "icon-1.png",
+        "category": "SEO",
+        "title": "Backlink checking & Monitoring",
+        "items": ["Audit", " On page SEO", " Local SEO"]
+    },
+    {
+        "icon": "icon-2.png",
+        "category": "Web Design",
+        "title": "Backlink checking & Monitoring",
+        "items": ["Concept", " Layout", " Programming"]
+    },
+   {
+    "form": true,
+    "header": "Website Traffic!",
+    "description": "Start the short analysis to find out where the priorities lie.",
+        "inputs":
+        [
+            {"type": "text", "placeholder": "https"},
+            {"type": "email", "placeholder": "email"}
+        ],
+        "label":
+        {
+            "text": "I agree to the Data <b>Protection</b> Agreement."
+        },
+        "button":
+        {
+            "text": "Analysis Now",
+            "link": "#"
+        }
+   } 
+]

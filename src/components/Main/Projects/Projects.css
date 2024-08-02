@@ -1,0 +1,102 @@
+.projects
+{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 4rem 0%;
+}
+
+.projects .header
+{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.projects .header .title h2
+{
+    font-size: 3rem;
+    font-weight: 600;
+    width: 400px;
+}
+
+.projects .header .button a
+{
+    padding: 15px 25px;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.projects .container
+{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    padding: 0rem 4%;
+}
+
+.projects .container .project
+{
+    flex: 1;
+    margin: 10px;
+    transition: flex 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.projects .container .project.active
+{
+    flex: 3;
+}
+
+.projects .container .project.inactive
+{
+    flex: 1;
+}
+
+.projects .container .project-info
+{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--color-white);
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 1440px)
+{
+    .projects
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .projects .header .title h2
+    {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .projects .header
+    {
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+}

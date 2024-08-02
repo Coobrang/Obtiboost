@@ -1,0 +1,10 @@
+{
+    "link":
+    [
+        {
+            "name": "Sign Up",
+            "url": "#",
+            "iconClass": "fa-regular fa-user"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "title": "Abous Us",
+    "Subtitle": "Meet pure visibility",
+    "description": "Our experience spans a wide range of industries, from healthcare and ecommerce to multi-location businesses",
+    "awards": [
+        {
+            "image": "award1.png",
+            "description": "We pride our selves on working as an extension of your marketing team & making tailored to your industry, business goals."
+        },
+        {
+            "image": "award2.png",
+            "description": "We work with the teams that build brands to understand, improve, and protect."
+        }
+    ],
+    "videoUrl": "https://www.youtube.com/embed/S6kfKZtPtnI",
+    "items":[
+        {
+            "icon": "fa-regular fa-clock",
+            "counter": "25",
+            "label": "Experience Year"
+        },
+        {
+            "icon": "fa-solid fa-award",
+            "counter": "120",
+            "label": "Successful Projects"
+        },
+        {
+            "icon": "fa-regular fa-face-smile",
+            "counter": "160",
+            "label": "Happy Customers"
+        },
+        {
+            "icon": "fa-solid fa-user-group",
+            "counter": "35",
+            "label": "Team Members"
+        }
+    ]
+}

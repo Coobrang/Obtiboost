@@ -1,0 +1,17 @@
+[
+    {"name": "Home", "link": "#"},
+    {
+        "name": "Shop",
+        "link": "#",
+        "iconClass": "fa-solid fa-angle-down",
+        "subMenu": [
+            {"name": "Product List", "link": "#"},
+            {"name": "Checkout", "link": "#"},
+            {"name": "Cart", "link": "#"},
+            {"name": "Wishlist", "link": "#"}
+        ]
+    },
+    {"name": "About", "link": "#"},
+    {"name": "Blog", "link": "#"},
+    {"name": "Contact", "link": "#"}
+]

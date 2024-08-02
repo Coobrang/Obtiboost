@@ -1,0 +1,62 @@
+{
+    "logo":
+    {
+        "image": "logo.png",
+        "description": "Best Award-winning SEO agency.!"
+    },
+    "contact":
+    {
+        "phone": "(123) 456-7899",
+        "enquireLink": "#"
+    },
+    "sections":
+    [
+        {
+            "title": "About",
+            "links":
+            [
+                {"text": "home", "url": "#"},
+                {"text": "Services", "url": "#"},
+                {"text": "Team", "url": "#"},
+                {"text": "SEO Blog", "url": "#"},
+                {"text": "Blog List", "url": "#"}
+            ]
+        },
+        {
+            "title": "Expertise",
+            "links":
+            [
+                {"text": "On Page SEO", "url": "#"},
+                {"text": "Keyword Research", "url": "#"},
+                {"text": "Team", "url": "#"},
+                {"text": "SEO Blog", "url": "#"},
+                {"text": "Blog List", "url": "#"}
+            ]
+        },
+        {
+            "title": "Information",
+            "links":
+            [
+                {"text": "Working days: 10AM - 8PM"},
+                {"text": "Saturday: 10AM - 6PM"},
+                {"text": "Sunday: Closed"}
+            ]
+        }
+    ],
+    "subFooter":
+    {
+        "copyright":
+        {
+            "text": "Copyright © 2024",
+            "companyName": "Coobrang",
+            "companyUrl": "#"
+        },
+        "socialLinks":
+        [
+            {"platform": "facebook", "url": "#"},
+            {"platform": "twitter", "url": "#"},
+            {"platform": "instagram", "url": "#"},
+            {"platform": "youtube", "url": "#"}
+        ]
+    }
+}

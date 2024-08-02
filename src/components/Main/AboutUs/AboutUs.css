@@ -1,0 +1,267 @@
+.aboutUs
+{
+    width: 1330px;
+    margin: 0 auto;
+}
+
+.aboutUs .container
+{
+    padding: 4rem 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+.aboutUs .container .content
+{
+    width: 50%;
+}
+
+.aboutUs .container .content .title
+{
+    margin-bottom: 3rem;
+}
+
+.aboutUs .container .content .title span
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-orange);
+}
+
+.aboutUs .container .content .title h3
+{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.aboutUs .container .content .title p
+{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #3f3f3f;
+    width: 500px;
+}
+
+.aboutUs .container .awards
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutUs .container .awards .box img
+{
+    margin-bottom: 20px;
+}
+
+.aboutUs .container .awards .box p
+{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #3f3f3f;
+    line-height: 30px;
+}
+
+.aboutUs .container .videoPopUp
+{
+    position: relative;
+}
+
+.aboutUs .container .videoPopUp .play-button
+{
+    border-radius: 30px;
+}
+
+.aboutUs .container .videoPopUp img
+{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.aboutUs .container .videoPopUp .play-button i
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.aboutUs .container .videoPopUp .play-button i:hover
+{
+    background-color: #1e347f;
+}
+
+.video-modal
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container
+{
+    position: relative;
+}
+
+.close-button
+{
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.close-button i
+{
+    font-size: 20px;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.aboutUs .items
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    padding-top: 1rem;
+}
+
+.aboutUs .items .box
+{
+    display: flex;
+    align-items: start;
+    gap: 15px;
+}
+
+.aboutUs .items .box .icon i
+{
+    font-size: 25px;
+}
+
+.aboutUs .items .box:nth-child(1) .icon i
+{
+    color: #4260ff;
+}
+
+.aboutUs .items .box:nth-child(2) .icon i
+{
+    color: #fc8a59b3;
+}
+
+.aboutUs .items .box:nth-child(3) .icon i
+{
+    color: #0cc8b3b3;
+}
+
+.aboutUs .items .box:nth-child(4) .icon i
+{
+    color: #ff5da7b3;
+}
+
+.aboutUs .items .box .counter h4
+{
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.aboutUs .items .box .counter span
+{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #3f3f3f;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px)
+{
+    .aboutUs
+    {
+        width: 100%;
+    }
+    .aboutUs .container
+    {
+        padding: 4rem 4%;
+    }
+    .aboutUs .items
+    {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .aboutUs .container
+    {
+        flex-direction: column-reverse;
+    }
+    .aboutUs .container .content
+    {
+        width: 100%;
+    }
+    .aboutUs .items .box .counter h4
+    {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .aboutUs .container
+    {
+        padding: 1rem 4%;
+    }
+    .aboutUs .container .content .title h3
+    {
+        font-size: 2rem;
+    }
+    .aboutUs .container .content .title p
+    {
+        width: 100%;
+    }
+    .aboutUs .container .awards
+    {
+        flex-direction: column;
+    }
+    .responsive-iframe
+    {
+        width: 450px;
+        height: 250px;
+    }
+    .close-button
+    {
+        top: -50px;
+        right: 0px;
+    }
+}

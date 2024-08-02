@@ -1,0 +1,32 @@
+{
+    "title": "Meet our team of expert",
+    "description": "We're a 100% remote team spread all across the world!",
+    "members":
+    [
+        {
+            "name": "Danny Russell",
+            "position": "Founder & CEO",
+            "image": "team-1.png"
+        },
+        {
+            "name": "Ezekiel Pearce",
+            "position": "Founder & CEO",
+            "image": "team-2.png"
+        },
+        {
+            "name": "Byron Conner",
+            "position": "Founder & CEO",
+            "image": "team-3.png"
+        },
+        {
+            "name": "Anna Lin",
+            "position": "Founder & CEO",
+            "image": "team-4.png"
+        }
+    ],
+    "button":
+    {
+        "text": "View all Projects",
+        "link": "#"
+    }
+}

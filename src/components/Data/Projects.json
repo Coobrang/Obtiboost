@@ -1,0 +1,37 @@
+{
+    "header":
+    {
+        "title": "Our Handpicked SEO Projects",
+        "button":{
+            "text": "View all Projects",
+            "link": "#"
+        }
+    },
+    "projects":
+    [
+        {
+            "id": 1,
+            "title": "Seo Digital Website",
+            "description": "Digital Art . Illustrations",
+            "image": "project-1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Projects 2",
+            "description": "Digital Art . Illustrations",
+            "image": "project-2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Projects 3",
+            "description": "Digital Art . Illustrations",
+            "image": "project-3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Projects 4",
+            "description": "Digital Art . Illustrations",
+            "image": "project-4.jpg"
+        }
+    ]
+}

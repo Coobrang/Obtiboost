@@ -1,0 +1,101 @@
+.hero
+{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.hero .row-box
+{
+    padding: 2rem 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .row-box .title
+{
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 90px;
+    margin-bottom: 1rem;
+    color: var(--colro-black);
+}
+
+.hero .row-box .description
+{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #414141;
+}
+
+.hero .row-box .buttons
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero .row-box .buttons .trail
+{
+    padding: 10px 20px;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    border-radius: 5px;
+}
+
+.hero .row-box .buttons .trail:hover
+{
+    background-color: var(--color-black);
+}
+
+.hero .row-box .buttons p
+{
+    font-size: 0.9rem;
+    color: #414141;
+}
+
+.hero .row-box .buttons a.sign
+{
+    color: var(--color-orange);
+    font-weight: 600;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px)
+{
+    .hero
+    {
+        width: 100%;
+    }
+    .hero .row-box
+    {
+        padding: 2rem 4%;
+    }
+    .hero .row-box .image img
+    {
+        width: 400px;
+    }
+    .hero .row-box .title
+    {
+        font-size: 3rem;
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .hero .row-box
+    {
+        flex-direction: column-reverse;
+    }
+    .hero .row-box .content
+    {
+        width: 100%;
+    }
+    .hero .row-box .image
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
